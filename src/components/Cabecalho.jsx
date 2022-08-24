@@ -22,6 +22,7 @@ const Cabecalho = () => {
 			<nav className="menu-cabecalho">
 				<ul className="menu-itens">
 					<li>
+						{/* Utilizando link do react router dom como âncoras */}
 						<Link to="#" className="menu-item menu-item--entrar">
 							Entrar
 						</Link>
